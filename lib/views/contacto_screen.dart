@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
 
-class MyStatelessWidget extends StatelessWidget {
-  const MyStatelessWidget({super.key});
+class ContactoScreen extends StatelessWidget {
+  const ContactoScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('StatelessWidget')),
+      appBar: AppBar(
+        title: const Text('Contacto'),
+      ),
       body: const Center(
         child: Text(
-          'Este es un texto fijo',
+          'Contáctanos',
           style: TextStyle(fontSize: 24),
         ),
       ),

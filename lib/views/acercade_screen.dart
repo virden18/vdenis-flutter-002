@@ -6,13 +6,20 @@ class AcercaDeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Acerca de'),
-      ),
       body: const Center(
-        child: Text(
-          'Sobre nosotros',
-          style: TextStyle(fontSize: 24),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Aplicación Bootcamp Sodep 2025',
+              style: TextStyle(fontSize: 24),
+            ),
+            SizedBox(height: 16),
+            Text(
+              'Virgilio Denis',
+              style: TextStyle(fontSize: 18),
+            ),
+          ],
         ),
       ),
     );

@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Stateless vs Stateful',
+      title: 'Inicio',
       theme: ThemeData(colorScheme : ColorScheme.fromSeed(seedColor:Color.fromARGB(255, 215, 191, 120))),
       home: const InicioScreen(),
     );

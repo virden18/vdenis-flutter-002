@@ -11,8 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Inicio',
-      theme: ThemeData(colorScheme : ColorScheme.fromSeed(seedColor:Color.fromARGB(255, 215, 191, 120))),
+      debugShowCheckedModeBanner: false,
+      title: 'Aplicación Bootcamp Sodep 2025',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color.fromARGB(255, 215, 191, 120),
+        ),
+      ),
       home: const InicioScreen(),
     );
   }
